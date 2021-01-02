@@ -27,7 +27,7 @@
         "pestphp/pest": "^0.3.16",
         "pestphp/pest-dev-tools": "dev-master"
     },
-    "version": "0.3.18",
+    "version": "0.3.2",
     "extra": {
         "branch-alias": {
             "dev-master": "0.3.x-dev"
