@@ -3,7 +3,7 @@ name: Tests
 on: ['push', 'pull_request']
 
 env:
-  COMPOSER_ROOT_VERSION: 0.3
+  COMPOSER_ROOT_VERSION: 0.3.x
 
 jobs:
   ci:
