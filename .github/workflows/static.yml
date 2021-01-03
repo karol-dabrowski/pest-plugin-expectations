@@ -12,6 +12,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
+    - name: Set COMPOSER_ROOT_VERSION environment variable
+      uses: ergebnis/composer-root-version-action@0.2.1
+      with:
+        branch: "master"
+
     - name: Setup PHP
       uses: shivammathur/setup-php@v2
       with:
